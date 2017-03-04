@@ -25,30 +25,30 @@
 						<h3 class="panel-title">Search Parameters</h3>
 					</div>
 					<div class="panel-body">
-						<div class="form-group">
-							<label class="control-label" for="inputDefault">Search Term:</label>
-							<input type="text" class="form-control" id="inputDefault">
-						</div>
-						<div class="form-group">
-							<label for="select" class="col-lg-12 control-label">Number of Records to Retrieve:</label>
-							<div class="col-lg-12">
-								<select class="form-control" id="select">
-									<option>1</option>
-									<option>5</option>
-									<option>10</option>
-								</select>	
+						<form role="form">
+							<div class="form-group">
+								<label for="search">Search Term:</label>
+								<input type="text" class="form-control" id="search">
 							</div>
-						</div>
-						<div class="form-group">
-							<label class="control-label" for="inputDefault">Start Year:</label>
-							<input type="text" class="form-control" id="inputDefault">
-						</div>
-						<div class="form-group">
-							<label class="control-label" for="inputDefault">End Year:</label>
-							<input type="text" class="form-control" id="inputDefault">
-						</div>
-						<a href="#" class="btn btn-primary search" type="button">Search</a>
-						<a href="#" class="btn btn-default clear" type="button">Clear Results</a>
+							<div class="form-group">
+								<label for="num-records">Number of Records to Retrieve:</label>
+								<select class="form-control" id="num-records">
+									<option value="1">1</option>
+									<option value="5" selected>5</option>
+									<option value="10">10</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="start-year">Start Year:</label>
+								<input type="text" class="form-control" id="start-year">
+							</div>
+							<div class="form-group">
+								<label for="end-year">End Year:</label>
+								<input type="text" class="form-control" id="end-year">
+							</div>
+							<button type="submit" class="btn btn-primary" id="search-btn">Search</button>
+							<button type="button" class="btn btn-default">Clear</button>
+						</form>
 					</div>
 				</div>
 				<div class="panel panel-info">
