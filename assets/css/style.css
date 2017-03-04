@@ -1,13 +1,15 @@
 .jumbotron{
-	width: 75%;
-	margin-left: 13	%;
-
+	background-image: url(../images/background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.jumbotron h1{
+	font-family: 'Boogaloo', cursive;
+	text-align: center;
+	color: #cccccc;	
 }
 .content{
 	width: 75%;
-}
-
-label{
-	padding: 0;
 }
 
