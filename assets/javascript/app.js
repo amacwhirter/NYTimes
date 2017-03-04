@@ -12,8 +12,10 @@ var queryURLBase = "http://api.nytimes.com/svc/search/v2/articlesearch.json?api-
 
 
 	$("#search").click(function(){
-		searchInput = $("#inputDefault").val()
-        var queryURL = queryURLBase + searchInput;
+		searchInput = $("#inputDefault").val();
+		$(".result").append(searchInput);
+
+        var queryURL = queryURLBase+ "?q=" + searchInput;
 
         $.ajax({
         	url: queryURL,
