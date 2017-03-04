@@ -1,5 +1,5 @@
 //Setup Variables
-var authKey = "568297530230411eade03711b5fe7fcc";
+var authKey = "b1fe253f41ce4e66819bdb044a84a61e";
 
 var searchInput = "";
 var numArticles = 0;
