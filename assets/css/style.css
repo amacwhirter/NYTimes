@@ -1,13 +1,12 @@
 .jumbotron{
-	width: 75%;
-	margin-left: 13	%;
-
+	background: url("assets/images/background.jpg");
+	
+}
+.jumbotron h1{
+	text-align: center;
+	color: #777777;	
 }
 .content{
 	width: 75%;
-}
-
-label{
-	padding: 0;
 }
 
